@@ -12,9 +12,8 @@ export function addTodo(todo){
   };
 }
 
-export function removeTodo(id){
+export function removeTodo(){
   return {
     type: types.REMOVE_TODO,
-    id.
   };
 }
